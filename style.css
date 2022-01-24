@@ -1,3 +1,8 @@
+/*  I will use this colors Scheme which is number 7 from the below website
+Colors: #2b6777 #c8d8e4 #ffffff #f2f2f2 #52ab98
+
+https://99designs.com/blog/tips/website-color-schemes/ */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
 
 * {
@@ -39,6 +44,14 @@ a {
   position: relative;
   margin-bottom: 46px;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
 /* ....................... */
 /* ....................... */
 /* ....Home Page Starts Here......... */
@@ -56,10 +69,10 @@ a {
   padding: 16px 0;
 }
 
-/* .header > div {
+.header > div {
   display: flex;
   flex-direction: column;
-} */
+}
 
 .header > div > div {
   display: flex;
@@ -76,7 +89,7 @@ a {
 }
 
 .menu {
-  color: #8684a0;
+  color: #2b6777;
   font-size: 32px;
   display: block;
   cursor: pointer;
@@ -241,8 +254,17 @@ on different screen sizes: for screens larger than 700px wide,
   }
 }
 
-/* .clearfix:after {
-  content: '';
-  display: table;
-  clear: both;
-} */
+/* FOOTER SECTION */
+
+.footer-section {
+  text-align: center;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icon p {
+  margin: 10px;
+}
